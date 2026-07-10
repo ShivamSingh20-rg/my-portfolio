@@ -18,9 +18,9 @@ export default function Hero() {
 
   return (
     <section
-      id="Home"
-      className="min-h-screen md:h-screen flex flex-col-reverse md:flex-row items-center justify-center md:justify-start pt-[100px] md:pt-0 gap-10 md:gap-[100px] px-5 md:px-0"
-    >
+  id="Home"
+  className="min-h-section py-12 md:min-h-screen flex flex-col-reverse md:flex-row items-center justify-center md:justify-start pt-[100px] md:pt-0 gap-10 md:gap-[100px] px-5 md:px-0 relative"
+>
       <div className="flex flex-col gap-9 w-full md:w-[60%] md:pl-[14%] text-center md:text-left items-center md:items-start text-[25px]">
         <div className="flex flex-col gap-3">
           <h1 className="text-3xl md:text-[43px] font-bold leading-tight">

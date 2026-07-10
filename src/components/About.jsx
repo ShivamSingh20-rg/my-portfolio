@@ -17,10 +17,14 @@ export default function About() {
   }, []);
 
   return (
-    <section id="About" className="min-h-screen md:h-screen overflow-hidden py-12 md:py-0 flex flex-col justify-center">
-      <div className="flex gap-[9px] justify-center items-center mb-10">
-        <i className="bx bx-user text-[45px]"></i>
-        <h1 className="text-3xl font-bold">About <span className="text-[#0ef]">Me</span></h1>
+ <section 
+      id="About" 
+      className="relative min-h-screen w-full flex flex-col justify-center py-20 md:py-13 box-border clear-both z-10"
+    >
+
+      <div className="flex gap-[9px] justify-center items-center mb-10 pt-8 md:pt-0 px-4">
+        <i className="bx bx-user text-[36px] md:text-[45px]"></i>
+        <h1 className="text-2xl md:text-3xl font-bold">About <span className="text-[#0ef]">Me</span></h1>
       </div>
 
       <div className="mt-8 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-0 px-5">
@@ -34,17 +38,17 @@ export default function About() {
 
         <div className="animate-text-fade flex flex-col w-full md:w-[45%] gap-[25px] text-center md:text-left" ref={writeRef}>
           <div className="text-[18px]">
-            <h2 className="text-2xl font-bold">I'm Shivam Singh</h2>
+            <h2 className="text-2xl font-bold">I'm Shivam <span className="text-cyan-400">Singh</span></h2>
             <h5 className="font-normal text-slate-300">Full Stack Developer !</h5>
           </div>
-          <p className="text-[14px] leading-relaxed text-slate-200">
-            Hello! I'm Shivam and I am a B.Tech Computer science (IoT) student at IPS Academy - I have a great love of software development. My journey in programming started by learning the basics of C++ and Data Structures & Algorithms (DSA). This stringent training provided me with a solid foundation for the logic building that I now use in all the code I write.
+          <p className="text-[16px] leading-relaxed text-slate-200">
+          Hello! I’m Shivam , a Computer Science Engineering student at IPS Academy, Indore, with a deep passion for building high-performance software. My engineering foundation is built on strong problem-solving skills and a deep understanding of Data Structures and Algorithms (DSA), allowing me to write highly optimized and efficient code. Having mastered the MERN stack (MongoDB, Express.js, React, Node.js), I excel at bridging the gap between elegant client-side interfaces and robust server architectures. By intelligently blending core algorithmic logic with modern AI-assisted development tools, I significantly accelerate engineering cycles, optimize system efficiency, and debug complex backend systems with ease.
           </p>
-          <p className="text-[14px] leading-relaxed text-slate-200">
-            Frontend Expertise & Design As this currently, I am a specialist in building responsiveness and interactivity of frontend interfaces in React, JavaScript, Html5, and CSS. I have a good aesthetic for design and readily can help develop UIs for software, websites. My suitability of items include Tailwind CSS for quick styling and integration of Rest APIs for dynamic functionalities to my applications.
+          <p className="text-[16px] leading-relaxed text-slate-200">
+           Beyond standard feature development, I focus heavily on DevOps infrastructure and modern System Design concepts. I possess the technical foundation required to optimize web applications and engineer them for high scalability under heavy traffic whenever a project demands it. My technical toolkit includes setting up automated CI/CD pipelines, containerizing  with Docker, and managing strategic cloud deployments. I build with a strong focus on resource efficiency and fast load times, ensuring I have the skills to deliver fully optimized, highly responsive, and architected-to-scale web solutions.
           </p>
-          <p className="text-[14px] leading-relaxed text-slate-200">
-            Future Full Stack Goals I am currently trying to broaden my horizons in order to become a complete Full Stack Developer. I am keenly learning backend technologies such as Node.js, Express.js and Next.js, Database management. My objective is to connect my frontend expertise skills with a strong backend logic to develop complete and end-to-end web solutions.
+          <p className="text-[16px] leading-relaxed text-slate-200">
+            Looking ahead, I am committed to staying at the absolute forefront of industry innovation. I am currently deep-diving into Generative AI ecosystems, mastering LLM integration, and exploring the practical applications of the OpenAI API. To build the next generation of intelligent systems, I am actively learning Retrieval-Augmented Generation (RAG) frameworks and working with Vector Databases to transform standard full-stack web platforms into dynamic, AI-driven solutions.
           </p>
           <div className="text-base font-medium">
             <span className="text-[#0ef]">Email : </span> eshivamsingh20@gmail.com
