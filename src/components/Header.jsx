@@ -30,14 +30,15 @@ export default function Header() {
       </nav>
 
       {/* Responsive Hamburger Toggle Menu */}
-      <div
-        className="flex md:hidden flex-col gap-[6px] p-[10px] cursor-pointer group"
-        onClick={() => setIsActive(!isActive)}
-      >
-        <span className={`w-30 h-[3px] bg-white rounded-full transition-all duration-300 ${isActive ? "translate-y-[9px] rotate-45" : ""}`}></span>
-        <span className={`w-30 h-[3px] bg-white rounded-full transition-all duration-300 ${isActive ? "opacity-0" : ""}`}></span>
-        <span className={`w-30 h-[3px] bg-white rounded-full transition-all duration-300 ${isActive ? "translate-y-[-9px] -rotate-45" : ""}`}></span>
-      </div>
+    {/* Responsive Hamburger Toggle Menu */}
+<div
+  className="flex md:hidden flex-col gap-[4px] p-[6px] cursor-pointer group"
+  onClick={() => setIsActive(!isActive)}
+>
+  <span className={`w-6 h-[2.5px] bg-white rounded-full transition-all duration-300 ${isActive ? "translate-y-[6.5px] rotate-45" : ""}`}></span>
+  <span className={`w-6 h-[2.5px] bg-white rounded-full transition-all duration-300 ${isActive ? "opacity-0" : ""}`}></span>
+  <span className={`w-6 h-[2.5px] bg-white rounded-full transition-all duration-300 ${isActive ? "translate-y-[-6.5px] -rotate-45" : ""}`}></span>
+</div>
     </header>
   );
 }

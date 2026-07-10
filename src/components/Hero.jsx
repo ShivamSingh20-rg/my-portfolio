@@ -79,13 +79,13 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-auto flex justify-center pr-23 ">
-        <img
-          src="/Gemini_Generated_Image_ig0lgeig0lgeig0l.png"
-          alt="Shivam"
-          className="w-[70%] md:w-[55%] rounded-full shadow-[0_0_80px_cyan]"
-        />
-      </div>
+     <div className="w-full md:w-auto flex justify-center pr-0 md:pr-23">
+  <img
+    src="/Gemini_Generated_Image_ig0lgeig0lgeig0l.png"
+    alt="Shivam"
+    className="w-[70%] md:w-[55%] rounded-full shadow-[0_0_80px_cyan]"
+  />
+</div>
     </section>
   );
 }

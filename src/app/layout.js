@@ -3,6 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "Shivam Singh | Full Stack Developer",
   description: "Personal Portfolio Website of Shivam Singh Gaharwar",
+ 
 };
 
 export default function RootLayout({ children }) {
