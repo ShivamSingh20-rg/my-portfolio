@@ -58,7 +58,7 @@ export default function Skills() {
       >
         {skillData.map((skill, index) => (
           <div
-            className="skilcard animate-text-fade bg-transparent p-4 w-full max-w-[190px] h-[100px] rounded-xl flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-[6px] shadow-[1px_1px_15px_#012290f7,1px_1px_30px_#0053b8f7]"
+            className="skilcard animate-text-fade bg-transparent p-4 w-full max-w-[190px] h-[100px] rounded-xl flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-[6px] shadow-[1px_1px_7px_#012290f7,1px_1px_15px_#0053b8f7]"
             key={index}
           >
             <div className="flex flex-col items-center justify-center text-center">
